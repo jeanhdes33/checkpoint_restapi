@@ -1,0 +1,27 @@
+###
+GET http://localhost:3004/users
+###
+
+
+
+###
+POST http://localhost:3004/users
+Content-Type: application/json
+
+{
+"name":"Jean"
+
+}
+
+
+
+###
+DELETE http://localhost:3004/users/65f8cbfadad56b51dc6a6fc8
+
+###
+PATCH  http://localhost:3004/users/65f8cbfadad56b51dc6a6fc8
+Content-Type: application/json
+
+{
+"name":"Jean 2"
+}
